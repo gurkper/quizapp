@@ -15,13 +15,14 @@ console.log(fragor[1].fraga);
 var fragetext = document.getElementById("fraga");
 fragetext.innerhtml = fragor [0].fraga;
 
-var knapp = [0];
-for(t = 0; t < alternativ.length; t++) {
+var knapp = [];
+for(t = 0; t < fragor[0].alternativ.length; t++) {
     
     var vilken = "alt"+t;
     console.log(vilken);
 knapp[t] = document. getElementById(vilken);
-knapp[t] = innerhtml
+knapp[t] = innerHTML = fragor[0].alternativ[t];
+}
 
 
 
